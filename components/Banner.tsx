@@ -29,6 +29,7 @@ function Banner({ netflixOriginals }: Props) {
                     }`}
                     layout="fill"
                     objectFit="cover"
+                    alt=""
                 />
             </div>
             <h1 className="text-2xl lg:text-7xl md:text-4xl">
