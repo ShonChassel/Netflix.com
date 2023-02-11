@@ -1,4 +1,4 @@
-const setTopTenImg = [
+const TopTenImg = [
     "https://res.cloudinary.com/dirvusyaz/image/upload/v1674832752/Netflix-0_gzjfmz.svg",
     "https://res.cloudinary.com/dirvusyaz/image/upload/v1674832752/Netflix-1_elz36g.svg",
     "https://res.cloudinary.com/dirvusyaz/image/upload/v1674832752/Netflix-2_hi8ufk.svg",
@@ -10,4 +10,4 @@ const setTopTenImg = [
     "https://res.cloudinary.com/dirvusyaz/image/upload/v1674832753/Netflix-7_vcvwki.svg",
 ];
 
-export default setTopTenImg;
+export default TopTenImg;

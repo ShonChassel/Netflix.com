@@ -3,6 +3,7 @@ import { log } from "console";
 import { useRef, useState } from "react";
 import { Movie } from "../typings";
 import Thumbnail from "./Thumbnail";
+import TopTenImg from "../utils/topTen";
 
 interface Props {
     title: string;
@@ -11,13 +12,13 @@ interface Props {
     special?: boolean;
 }
 
-function Row({ title, movies, special }: Props) {
+function Row({ title, movies, special, }: Props) {
     const rowRef = useRef<HTMLDivElement>(null);
     const [isMoved, setIsMoved] = useState(false);
 
     const handleClick = (direction: string) => {
         setIsMoved(true);
-
+        
         if(rowRef.current){
             const {scrollLeft, clientWidth} = rowRef.current
             const scrollTo =
@@ -29,7 +30,7 @@ function Row({ title, movies, special }: Props) {
 
         }
     };
-
+ 
     return (
         <div className="h-40 space-y-0.5 md:space-y-2">
             <h2 className="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200
@@ -45,13 +46,14 @@ function Row({ title, movies, special }: Props) {
 
                 <div
                     ref={rowRef}
-                    className="flex scrollbar-hide items-center space-x-0.5 overflow-x-scroll md:space-x-2.5 md:p-2"
+                    className="flex scrollbar-hide items-center space-x-0.5 overflow-x-scroll md:space-x-2.5 md:p-2 h-[206px]"
                 >
                     {movies.map((movie) => (
                         <Thumbnail
                             key={movie.id}
                             movie={movie}
                             special={special}
+                            
                         />
                     ))}
                 </div>
