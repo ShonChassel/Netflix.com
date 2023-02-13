@@ -1,27 +1,30 @@
-# Next.js + Tailwind CSS Example
+# :tv: Netflix
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+show search engine that showcases information related to different television series.
 
-## Deploy your own
+✅ Users can search TV shows & movies and watch the trailer..  
+✅ Users can explore different TV shows and filter them by genre: Top Rated, Trending Now, Thrillers, etc.  
+✅ Users can access information related to a specific TV show including Genres, ratings, Match, trailer, and more.  
+✅ Users can add or delete TV shows & movies from their personal WishList.
+✅ The app is fully responsive and it adapts to any screen size. 
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<br/>
+:link: Link to the live project: [Link](https://netflix2-0-eosin.vercel.app/)  
+<br/>
+<img src='netflix/public/netflix.PNG'/>
+<br/>
 
-## How to use
+## My Process
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+I developed this project over the course of approximately A month and a half. In order to learn as much as I can from the development of this project, I implemented certain features from scratch including accessible and scrollable tabs, a carousel functionality, and infinite loading.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Tools
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- NextJS. 
+- typescript.
+- Stripe API for payments
+- tailwind for (CSS grid & CSS Flexbox & Media queries)
+- Firebase authentication services & Firestore database
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+In order to search and obtain information about TV shows, I used the TMDB API and the OMDB API.
