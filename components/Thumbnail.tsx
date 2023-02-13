@@ -1,3 +1,4 @@
+import { DocumentData } from "firebase/firestore";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { useRecoilState } from "recoil";
@@ -6,8 +7,7 @@ import { Movie } from "../typings";
 import TopTenImg from "../utils/topTen";
 
 interface Props {
-    movie: Movie;
-    // movie: Movie | DocumentData;
+    movie: Movie | DocumentData
     special?: boolean;
     TopTen?: string[];
 }
