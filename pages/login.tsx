@@ -1,6 +1,7 @@
 import { sign } from "crypto";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import useAuth from "../hooks/useAuth";
@@ -97,6 +98,8 @@ function login() {
                     >
                         Sing Up now
                     </button>
+                    
+                    
                 </div>
             </form>
         </div>
