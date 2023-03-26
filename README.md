@@ -19,7 +19,7 @@ show search engine that showcases information related to different television se
 
 I developed this project over the course of approximately A month and a half. In order to learn as much as I can from the development of this project, I implemented certain features from scratch including accessible and scrollable tabs, a carousel functionality, and infinite loading.
 
-### Tools
+### Tools:
 
 - NextJS. 
 - typescript.
