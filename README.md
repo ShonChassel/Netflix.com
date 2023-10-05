@@ -10,12 +10,8 @@ show search engine that showcases information related to different television se
 ✅ The app was developed while considering the Web Content Accessibility Guidelines (WCAG).  
 
 <br/>
-:link: Link to the live project: [Link](https://booknow1-com.onrender.com/)  
-<br/>
-<br/>
 :link: Link to the live project: [Link](https://netflix2-0-eosin.vercel.app/)  
 <br/>
-
 <img src='2.png'/>
 <br/>
 
@@ -31,7 +27,7 @@ I developed this project over the course of approximately A month and a half. In
 - tailwind for (CSS grid & CSS Flexbox & Media queries)
 - Firebase authentication services & Firestore database
 
-* [![React][React.js]][React-url]
+* [![Next][Next.js]][Next-url]
 * [![Javascript][Javascript.js]][Javascript-url]
 * [![Node][Node.js]][Node-url]
 * [![mongodb][mongodb.js]][mongodb-url]
