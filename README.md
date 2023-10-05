@@ -24,6 +24,7 @@ I developed this project over the course of approximately A month and a half. In
 * [![Next][Next.js]][Next-url]
 * [![Typescript][typescript.js]][typescript-url]
 * [![Javascript][Javascript.js]][Javascript-url]
+* [![firebase][firebase.js]][firebase-url]
 - Stripe API for payments
 - tailwind for (CSS grid & CSS Flexbox & Media queries)
 - Firebase authentication services & Firestore database
@@ -50,4 +51,6 @@ In order to search and obtain information about TV shows, I used the TMDB API an
 [mongodb-url]: https://www.mongodb.com/
 [typescript.js]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org/
+[firebase.js]: https://img.shields.io/badge/Firebase-FFA000?style=for-the-badge&logo=Firebase&logoColor=white
+[firebase-url]: https://firebase.google.com/
 
