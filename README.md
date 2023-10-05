@@ -12,7 +12,7 @@ show search engine that showcases information related to different television se
 <br/>
 :link: Link to the live project: [Link](https://netflix2-0-eosin.vercel.app/)  
 <br/>
-<img src='netflix2.PNG'/>
+<img src='2.png'/>
 <br/>
 
 ## My Process:
