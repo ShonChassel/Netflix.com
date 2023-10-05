@@ -21,22 +21,14 @@ I developed this project over the course of approximately A month and a half. In
 
 ### Tools:
 
-- NextJS. 
-- typescript.
+* [![Next][Next.js]][Next-url]
+* [![Typescript][typescript.js]][typescript-url]
 - Stripe API for payments
 - tailwind for (CSS grid & CSS Flexbox & Media queries)
 - Firebase authentication services & Firestore database
-
-* [![Next][Next.js]][Next-url]
-* [![Typescript][typescript.js]][typescript-url]
-* [![Node][Node.js]][Node-url]
-* [![mongodb][mongodb.js]][mongodb-url]
-- JWT, Cookies, Context API.
-- SCSS modules (CSS grid & CSS Flexbox & Media queries)
 - Font Awesome (Icons)
-
-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 In order to search and obtain information about TV shows, I used the TMDB API and the OMDB API.
+- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
