@@ -54,7 +54,7 @@ In order to search and obtain information about TV shows, I used the TMDB API an
 [mongodb-url]: https://www.mongodb.com/
 [typescript.js]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org/
-[firebase.js]: https://img.shields.io/badge/Firebase-FFA000?style=for-the-badge&logo=Firebase&logoColor=white
+[firebase.js]: https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase
 [firebase-url]: https://firebase.google.com/
 [JWT.js]: https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens
 [JWT-url]: https://firebase.google.com/
