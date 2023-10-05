@@ -23,6 +23,7 @@ I developed this project over the course of approximately A month and a half. In
 
 * [![Next][Next.js]][Next-url]
 * [![Typescript][typescript.js]][typescript-url]
+* [![Javascript][Javascript.js]][Javascript-url]
 - Stripe API for payments
 - tailwind for (CSS grid & CSS Flexbox & Media queries)
 - Firebase authentication services & Firestore database
