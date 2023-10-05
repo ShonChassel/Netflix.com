@@ -28,7 +28,7 @@ I developed this project over the course of approximately A month and a half. In
 - Firebase authentication services & Firestore database
 
 * [![Next][Next.js]][Next-url]
-* [![Javascript][Javascript.js]][Javascript-url]
+* [![Typescript][typescript.js]][typescript-url]
 * [![Node][Node.js]][Node-url]
 * [![mongodb][mongodb.js]][mongodb-url]
 - JWT, Cookies, Context API.
@@ -55,4 +55,6 @@ In order to search and obtain information about TV shows, I used the TMDB API an
 [Node-url]: https://nodejs.org/en
 [mongodb.js]: https://img.shields.io/badge/mongodb-00080b?style=for-the-badge&logo=mongodb&logoColor=2bc400
 [mongodb-url]: https://www.mongodb.com/
+[typescript.js]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org/
 
