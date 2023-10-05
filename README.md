@@ -25,6 +25,7 @@ I developed this project over the course of approximately A month and a half. In
 * [![Typescript][typescript.js]][typescript-url]
 * [![Javascript][Javascript.js]][Javascript-url]
 * [![firebase][firebase.js]][firebase-url]
+* [![Tailwindcss][tailwindcss.js]][tailwindcss-url]
 - Stripe API for payments
 - tailwind for (CSS grid & CSS Flexbox & Media queries)
 - Firebase authentication services & Firestore database
@@ -39,6 +40,8 @@ In order to search and obtain information about TV shows, I used the TMDB API an
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-0baed7?style=for-the-badge&logo=react&logoColor=white
 [React-url]: https://reactjs.org/
+[Redux.js]: https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white
+[Redux-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
@@ -53,4 +56,14 @@ In order to search and obtain information about TV shows, I used the TMDB API an
 [typescript-url]: https://www.typescriptlang.org/
 [firebase.js]: https://img.shields.io/badge/Firebase-FFA000?style=for-the-badge&logo=Firebase&logoColor=white
 [firebase-url]: https://firebase.google.com/
+[JWT.js]: https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens
+[JWT-url]: https://firebase.google.com/
+[NODEMON.js]: https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD
+[NODEMON-url]: https://firebase.google.com/
+[SASS.js]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
+[SASS-url]: https://firebase.google.com/
+[Socket.js]: https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101
+[Socket-url]: https://firebase.google.com/
+[tailwindcss.js]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwindcss-url]: https://tailwindcss.com/
 
