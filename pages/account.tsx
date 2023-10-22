@@ -34,6 +34,8 @@ function Account({ products }: Props) {
                 <Link href="/account">
                     <img
                         src="https://res.cloudinary.com/dirvusyaz/image/upload/v1697999821/Netflix-avatar_ee5ewj.png"
+                        width={30}
+                        height={30}
                         alt=""
                         className="cursor-pointer rounded"
                     />
