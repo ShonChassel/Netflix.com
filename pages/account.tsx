@@ -25,7 +25,7 @@ function Account({ products }: Props) {
             <header className={`bg-[#141414]`}>
                 <Link href="/">
                     <img
-                        src="https://rb.gy/ulxxee"
+                         src="https://res.cloudinary.com/dirvusyaz/image/upload/v1697999549/pngwing.com_ljpjjg.png"
                         width={120}
                         height={120}
                         className="cursor-pointer object-contain"
@@ -33,7 +33,7 @@ function Account({ products }: Props) {
                 </Link>
                 <Link href="/account">
                     <img
-                        src="https://rb.gy/g1pwyx"
+                        src="https://res.cloudinary.com/dirvusyaz/image/upload/v1697999821/Netflix-avatar_ee5ewj.png"
                         alt=""
                         className="cursor-pointer rounded"
                     />
@@ -45,7 +45,7 @@ function Account({ products }: Props) {
                     <h1 className="text-3xl md:text-4xl">Account</h1>
                     <div className="-ml-0.5 flex items-center gap-x-1.5">
                         <img
-                            src="https://rb.gy/4vfk4r"
+                            src="https://res.cloudinary.com/dirvusyaz/image/upload/v1697999821/Netflix-avatar_ee5ewj.png"
                             alt=""
                             className="h-7 w-7"
                         />
