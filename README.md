@@ -9,7 +9,7 @@ show search engine that showcases information related to different television se
 
 
 <br/>
-:link: Link to the live project: [Link](https://netflix2-0-eosin.vercel.app/)  
+:link: Link to the live project: [Link](https://netflix-il.vercel.app/)  
 <br/>
 <img src='3.png'/>
 <br/>
