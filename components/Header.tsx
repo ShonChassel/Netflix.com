@@ -28,7 +28,7 @@ function Header() {
         <header className={`${isScrolled && "bg-[#141414]"}`}>
             <div className="flex items-center space-x-2 md:space-x-10">
                 <img
-                    src="https://rb.gy/ulxxee"
+                    src="https://res.cloudinary.com/dirvusyaz/image/upload/v1697999549/pngwing.com_ljpjjg.png"
                     width={100}
                     height={100}
                     className="cursor-pointer object-contain"
