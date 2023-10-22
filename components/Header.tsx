@@ -51,8 +51,10 @@ function Header() {
                 <BellIcon className="h-6 w-6" />
                 <Link href="/account">
                     <img
-                        src="https://rb.gy/g1pwyx"
+                        src="https://res.cloudinary.com/dirvusyaz/image/upload/v1697999821/Netflix-avatar_ee5ewj.png"
                         alt=""
+                        width={30}
+                        height={30}
                         className="cursor-pointer rounded"
                     />
                 </Link>
