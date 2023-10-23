@@ -21,10 +21,13 @@
     }
     .topTen {
         display: flex;
-        align-items: center;
-        @apply relative h-[200px] w-[118px] cursor-pointer transition duration-200 ease-out md:h-[200px]  
-        md:hover:scale-105;
+        max-width: 230px;
+        cursor: pointer;
     }
+    .topTen-container {
+        margin-left: -40px;
+    }
+
     .topTenImg {
         width: auto !important;
         display: flex;
@@ -36,7 +39,13 @@
         right: auto !important;
         bottom: auto !important;
         color: transparent;
+        position: static !important;
     }
+
+    img{
+        max-width: none; 
+    }
+    
 
     .input {
         @apply w-full rounded bg-[#333333] px-5 py-3.5 placeholder-[gray] outline-none focus:bg-[#454545];
