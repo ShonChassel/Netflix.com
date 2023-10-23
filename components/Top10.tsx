@@ -60,7 +60,8 @@ function Top10({ title, movies }: Props) {
                 >
                     {top10Movies.map((movie, i) => (
                         <>
-                            <div className="topTen" onClick={() => {
+                            <div className="topTen transition duration-200
+                     ease-out md:hover:scale-105" onClick={() => {
                                 setCurrentMovie(movie)
                                 setShowModal(true)
                             }}>
