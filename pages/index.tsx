@@ -9,6 +9,7 @@ import Header from "../components/Header";
 import Modal from "../components/Modal";
 import Plans from "../components/Plans";
 import Row from "../components/Row";
+import Top10 from "../components/Top10";
 import useAuth from "../hooks/useAuth";
 import useList from "../hooks/useList";
 import useSubscription from "../hooks/useSubscription";
@@ -64,7 +65,8 @@ const Home = ({
             <main className="relative pl-4 pb-24 lg:space-y-24 lg:pl-16 overflow-y-hidden">
                 <Banner netflixOriginals={netflixOriginals} />
                 <section className="md:space-y-24">
-                    <Row title="Top Rated" movies={topRated} special={true} />
+                    <Top10 title="Top 10" movies={netflixOriginals} />
+                    {/* <Row title="Top Rated" movies={topRated} special={true} /> */}
                     <Row title="Trending Now" movies={trendingNow} />
                     <Row title="Action Thrillers" movies={actionMovies} />
                     {/* My List */}
@@ -83,45 +85,59 @@ const Home = ({
 export default Home;
 
 export const getServerSideProps = async () => {
-    const products = await getProducts(payments, {
-        includePrices: true,
-        activeOnly: true,
-    })
-        .then((res) => res)
-        .catch((error) => console.log(error.message));
+    try {
+        const products = await getProducts(payments, {
+            includePrices: true,
+            activeOnly: true,
+        });
 
-    const [
-        netflixOriginals,
-        trendingNow,
-        topRated,
-        actionMovies,
-        comedyMovies,
-        horrorMovies,
-        romanceMovies,
-        documentaries,
-    ] = await Promise.all([
-        fetch(requests.fetchNetflixOriginals).then((res) => res.json()),
-        fetch(requests.fetchTrending).then((res) => res.json()),
-        fetch(requests.fetchTopRated).then((res) => res.json()),
-        fetch(requests.fetchActionMovies).then((res) => res.json()),
-        fetch(requests.fetchComedyMovies).then((res) => res.json()),
-        fetch(requests.fetchHorrorMovies).then((res) => res.json()),
-        fetch(requests.fetchRomanceMovies).then((res) => res.json()),
-        fetch(requests.fetchDocumentaries).then((res) => res.json()),
-    ]);
+        const [
+            netflixOriginals,
+            trendingNow,
+            topRated,
+            actionMovies,
+            comedyMovies,
+            horrorMovies,
+            romanceMovies,
+            documentaries,
+        ] = await Promise.all([
+            fetch(requests.fetchNetflixOriginals).then((res) => res.json()),
+            fetch(requests.fetchTrending).then((res) => res.json()),
+            fetch(requests.fetchTopRated).then((res) => res.json()),
+            fetch(requests.fetchActionMovies).then((res) => res.json()),
+            fetch(requests.fetchComedyMovies).then((res) => res.json()),
+            fetch(requests.fetchHorrorMovies).then((res) => res.json()),
+            fetch(requests.fetchRomanceMovies).then((res) => res.json()),
+            fetch(requests.fetchDocumentaries).then((res) => res.json()),
+        ]);
 
-    return {
-        props: {
-            netflixOriginals: netflixOriginals.results,
-            trendingNow: trendingNow.results,
-            topRated: topRated.results,
-            actionMovies: actionMovies.results,
-            comedyMovies: comedyMovies.results,
-            horrorMovies: horrorMovies.results,
-            romanceMovies: romanceMovies.results,
-            documentaries: documentaries.results,
-
-            products,
-        },
-    };
+        return {
+            props: {
+                netflixOriginals: netflixOriginals?.results || [], // Use an empty array as a fallback if netflixOriginals is undefined
+                trendingNow: trendingNow?.results || [],
+                topRated: topRated?.results || [],
+                actionMovies: actionMovies?.results || [],
+                comedyMovies: comedyMovies?.results || [],
+                horrorMovies: horrorMovies?.results || [],
+                romanceMovies: romanceMovies?.results || [],
+                documentaries: documentaries?.results || [],
+                products,
+            },
+        };
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        return {
+            props: {
+                netflixOriginals: [], // Provide an empty array as a fallback in case of an error
+                trendingNow: [],
+                topRated: [],
+                actionMovies: [],
+                comedyMovies: [],
+                horrorMovies: [],
+                romanceMovies: [],
+                documentaries: [],
+                products: [],
+            },
+        };
+    }
 };
