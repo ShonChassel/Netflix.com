@@ -1,4 +1,4 @@
-export const baseUrl = 'https://image.tmdb.org/t/p/original
+export const baseUrl = 'https://image.tmdb.org/t/p/original/'
 
 export const TopTen = [
     'https://res.cloudinary.com/dirvusyaz/image/upload/v1674832752/Netflix-0_gzjfmz.svg',
