@@ -65,4 +65,6 @@ In order to search and obtain information about TV shows, I used the TMDB API an
 [Socket-url]: https://firebase.google.com/
 [tailwindcss.js]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
 [tailwindcss-url]: https://tailwindcss.com/
+[tailwindcss.js]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
+[tailwindcss-url]: https://sass-lang.com/
 
